@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  overflow: auto; 
+
+}
+header{
+  text-align: center;
+  background-color: aquamarine;
+  padding: 10px;
+}
+header img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+section{
+  margin: 20px;
+}
+#Bio{
+  background-color: blueviolet;
+  height: 60px;
+}
+#work{
+  background-color: gold;
+}
+
+.project{
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  border: 1px solid red;
+  text-align: center;
+  overflow: hidden;
+
+}
+/* @media screen and (min-width) {
+  .project{
+    display: flex;
+  }
+} */
+
+footer{
+  text-align: center;
+  display: flex;
+  background-color: cadetblue;
+  padding: 10px;
+
+
+}
